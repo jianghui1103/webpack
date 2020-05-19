@@ -1,0 +1,8 @@
+:root{
+    --red:red;
+}
+body{
+    background-color: var(--red);
+    display: flex;
+    transform: rotateX(160deg);
+}
