@@ -8,9 +8,16 @@
   },
   "scripts": {
     "build": "node ./script/build.js",
+    "debug": "node --inspect-brk ./script/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/parser": "^7.16.6",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/traverse": "^7.16.5"
+  }
 }
