@@ -1,0 +1,2 @@
+!function(){"use strict";console.log("print被执行222221111"),console.log(NaN),console.log("hello 222222"),console.log(navigator),"serviceWorker"in navigator&&window.addEventListener("load",(()=>{navigator.serviceWorker.register("/service-worker.js").then((()=>{console.log("sw 注册成功")})).catch((()=>{console.log("sw注册失败")}))}))}();
+//# sourceMappingURL=built.js.map

@@ -1,0 +1,6 @@
+/*!*************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js!./src/css/a.css ***!
+  \*************************************************************************************************************/#box{background-color:#000;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap}
+/*!*************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js!./src/css/b.css ***!
+  \*************************************************************************************************************/#box,#box2{height:300px;width:300px}#box2{background-color:pink}
